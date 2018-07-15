@@ -7,7 +7,7 @@ import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleDirectedWeightedGraph;
 
 import it.polito.tdp.formulaone.db.FormulaOneDAO;
-
+//UPDATED TO 04/06
 public class Model {
 	
 	private FormulaOneDAO fonedao;
