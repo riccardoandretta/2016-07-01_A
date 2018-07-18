@@ -1,7 +1,5 @@
 package it.polito.tdp.formulaone.model;
 
-import java.time.LocalDate;
-
 public class Driver {
 
 	private int driverId;
@@ -64,13 +62,13 @@ public class Driver {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Driver [driverId=");
+		builder.append("driverId=");
 		builder.append(driverId);
 		builder.append(", forename=");
 		builder.append(forename);
 		builder.append(", surname=");
 		builder.append(surname);
-		builder.append("]");
+		builder.append("\n");
 		return builder.toString();
 	}
 
